@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>구본영 | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="nav-container">
+        <div class="logo" id="home-btn">BY Portfolio</div>
+
+        <ul class="nav-links">
+          <li>
+            <a href="#about-section"><i class="fas fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#study-section"><i class="fas fa-book"></i> Study</a>
+          </li>
+          <li>
+            <a href="#project-section"><i class="fas fa-users"></i> Projects</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/kubonyoung"
+              target="_blank"
+              class="sns-link"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://blog.naver.com/youngyoung391"
+              target="_blank"
+              class="sns-link"
+              ><i class="fas fa-edit"></i> Blog</a
+            >
+          </li>
+        </ul>
+
+        <div class="hamburger-menu" id="hamburger-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobile-nav" id="mobile-nav">
+      <div class="close-btn" id="close-btn"><i class="fas fa-times"></i></div>
+      <ul class="mobile-links">
+        <li>
+          <a href="#about-section" class="mobile-menu-item"
+            ><i class="fas fa-user"></i> About</a
+          >
+        </li>
+        <li>
+          <a href="#study-section" class="mobile-menu-item"
+            ><i class="fas fa-book"></i> Study</a
+          >
+        </li>
+        <li>
+          <a href="#project-section" class="mobile-menu-item"
+            ><i class="fas fa-users"></i> Projects</a
+          >
+        </li>
+        <hr style="border-color: #4a5568; margin: 20px 0" />
+        <li>
+          <a href="https://github.com/구본영" target="_blank"
+            ><i class="fab fa-github"></i> Github</a
+          >
+        </li>
+        <li>
+          <a href="https://blog.naver.com/youngyoung391" target="_blank"
+            ><i class="fas fa-edit"></i> Blog</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <main>
+      <section id="about-section" class="fade-in-section">
+        <h2 class="section-title">👤 About Me</h2>
+        <div class="about-container">
+          <div class="about-image">
+            <img src="profile.png" alt="프로필 사진" />
+          </div>
+          <div class="about-profile">
+            <h3>구본영 (Ku Bon-young)</h3>
+            <p class="sub-tag">Information Security Major</p>
+            <p class="about-bio">
+              안녕하세요 사이버 경찰을 목표로 열심히 보안을 공부하고 있는
+              구본영입니다.
+            </p>
+            <div class="profile-details">
+              <div class="detail-item">
+                <i class="fas fa-graduation-cap"></i>
+                <span>중부대학교 정보보호학전공 25학번</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-code"></i>
+                <span>C, Python, Digital Forensics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="study-section" class="fade-in-section">
+        <h2 class="section-title">📚 Study & Blog Posts</h2>
+        <div class="slider-container">
+          <div class="post-card">
+            <div class="card-image">
+              <img src="blog1.png" alt="Web" draggable="false" />
+            </div>
+            <div class="card-content">
+              <span class="post-tag">Web</span>
+              <h3 class="post-title">[웹]HTML 기초: 웹 페이지의 뼈대</h3>
+              <p class="post-desc">
+                웹프로그래밍의 기초 HTML에 대해 공부한 내용을 정리한
+                포스트입니다.
+              </p>
+              <div class="post-links">
+                <a
+                  href="https://blog.naver.com/youngyoung391/224241899272"
+                  class="btn btn-blog"
+                  target="_blank"
+                  ><i class="fas fa-arrow-right"></i> Read Post</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="post-card">
+            <div class="card-image">
+              <img src="blog2.png" alt="Web" draggable="false" />
+            </div>
+            <div class="card-content">
+              <span class="post-tag">Web</span>
+              <h3 class="post-title">[웹]CSS 기초: 웹 페이지를 꾸며보자</h3>
+              <p class="post-desc">
+                웹프로그래밍의 기초 CSS에 대해 공부한 내용을 정리한
+                포스트입니다.
+              </p>
+              <div class="post-links">
+                <a
+                  href="https://blog.naver.com/youngyoung391/224230439162"
+                  class="btn btn-blog"
+                  target="_blank"
+                  ><i class="fas fa-arrow-right"></i> Read Post</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="post-card">
+            <div class="card-image">
+              <img src="blog3.png" alt="Web" draggable="false" />
+            </div>
+            <div class="card-content">
+              <span class="post-tag">Web</span>
+              <h3 class="post-title">
+                [웹] JavaScript 기초: 웹 페이지에 생동감 불어넣기
+              </h3>
+              <p class="post-desc">
+                웹프로그래밍의 기초 JavaScript에 대해 공부한 내용을 정리한
+                포스트입니다.
+              </p>
+              <div class="post-links">
+                <a
+                  href="https://blog.naver.com/youngyoung391/224233593291"
+                  class="btn btn-blog"
+                  target="_blank"
+                  ><i class="fas fa-arrow-right"></i> Read Post</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="post-card">
+            <div class="card-image">
+              <img src="blog4.png" alt="Web" draggable="false" />
+            </div>
+            <div class="card-content">
+              <span class="post-tag">Web</span>
+              <h3 class="post-title">
+                [웹] HTML Tables & Lists: 데이터를 깔끔하게 정리하는 방법
+              </h3>
+              <p class="post-desc">
+                HTML Tables & Lists에 대해 공부한 내용을 정리한 포스트입니다.
+              </p>
+              <div class="post-links">
+                <a
+                  href="https://blog.naver.com/youngyoung391/224239618587"
+                  class="btn btn-blog"
+                  target="_blank"
+                  ><i class="fas fa-arrow-right"></i> Read Post</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="post-card">
+            <div class="card-image">
+              <img src="blog5.png" alt="Web" draggable="false" />
+            </div>
+            <div class="card-content">
+              <span class="post-tag">Digital Forensics</span>
+              <h3 class="post-title">
+                [포렌식]디지털 포렌식이란 + 파일 분석 도구(Auto psy,Hxd) 설치
+              </h3>
+              <p class="post-desc">
+                디지털 포렌식의 기초 내용과 기본 툴 설치 후 실습한 내용을 정리한
+                포스트입니다.
+              </p>
+              <div class="post-links">
+                <a
+                  href="https://blog.naver.com/youngyoung391/224231519375"
+                  class="btn btn-blog"
+                  target="_blank"
+                  ><i class="fas fa-arrow-right"></i> Read Post</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="post-card">
+            <div class="card-image">
+              <img src="blog7.png" alt="Web" draggable="false" />
+            </div>
+            <div class="card-content">
+              <span class="post-tag">Digital Forensics</span>
+              <h3 class="post-title">
+                [포렌식]이미지 파일 분석 + 디스크 이미징 도구(FTK Imager) 설치
+              </h3>
+              <p class="post-desc">
+                디지털 포렌식의 이미지 파일 분석 및 디스크 이미징을 실습한
+                내용을 정리한 포스트입니다.
+              </p>
+              <div class="post-links">
+                <a
+                  href="https://blog.naver.com/youngyoung391/224239289824"
+                  class="btn btn-blog"
+                  target="_blank"
+                  ><i class="fas fa-arrow-right"></i> Read Post</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="project-section" class="fade-in-section">
+        <h2 class="section-title">👥 Team Projects</h2>
+        <div class="slider-container">
+          <div class="post-card">
+            <div class="card-image">
+              <img src="team.png" alt="Project 1" draggable="false" />
+            </div>
+            <div class="card-content">
+              <span
+                class="post-tag"
+                style="background-color: #edf2f7; color: #4a5568"
+                >Team Project</span
+              >
+              <h3 class="post-title">점심 메뉴 추천 웹사이트[중간고사]</h3>
+              <p class="post-desc">
+                중간고사 과제로 제작한 점심 메뉴 추천 웹사이트입니다.
+              </p>
+              <div class="post-links">
+                <a
+                  href="https://github.com/kubonyoung/middle-project"
+                  class="btn btn-github"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://middle-project-two.vercel.app/"
+                  class="btn btn-blog"
+                  target="_blank"
+                  ><i class="fas fa-edit"></i> Review</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <div class="card-image">
+              <img src="team1.png" alt="Project 1" draggable="false" />
+            </div>
+            <div class="card-content">
+              <span
+                class="post-tag"
+                style="background-color: #edf2f7; color: #4a5568"
+                >Team Project</span
+              >
+              <h3 class="post-title">점심 메뉴 추천 웹사이트[기말고사]</h3>
+              <p class="post-desc">
+                중간고사 과제로 제작한 점심 메뉴 추천 웹사이트에 카테고리별 메뉴
+                추천, 사다리타기 정산 등의 기능을 추가 했습니다.
+              </p>
+              <div class="post-links">
+                <a
+                  href="https://github.com/kubonyoung/team-project1"
+                  class="btn btn-github"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://team-project1.vercel.app/"
+                  class="btn btn-blog"
+                  target="_blank"
+                  ><i class="fas fa-edit"></i> Review</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Ku Bon-young. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
